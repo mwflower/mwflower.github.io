@@ -1,17 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>梦中的过客 on 梦中的过客</title>
-		<link>https://mwflower.github.io/</link>
-		<description>Recent content in 梦中的过客 </description>
-		<generator>Hugo -- gohugo.io</generator>
-		
-  		<language>en-us</language>
-		
-		<managingEditor>Page(&#34;梦中的过客&#34;) (Hugo Author)</managingEditor>
-    	
-  		<lastBuildDate>Thu, 24 Dec 2020 00:16:30 +0800</lastBuildDate>
-		
-		<atom:link href="/" rel="self" type="application/rss+xml" />
-		
-	</channel>
+  <channel>
+    <title>笑语嫣然</title>
+    <link>https://mwflower.github.io/</link>
+    <description>Recent content on 笑语嫣然</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Dec 2020 00:16:30 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大千世界</title>
+      <link>https://mwflower.github.io/post/daqianshijie/</link>
+      <pubDate>Thu, 24 Dec 2020 00:16:30 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/daqianshijie/</guid>
+      <description>天行健，君子以自强不息；地势坤，君子以厚德载物
+精气神
+英雄不问出处
+沧海横流的英雄气概
+稀世奇珍
+美梦成真
+方寸之间，方显大气
+你的幸福人尽皆知，我的狼狈无处遁形
+你能选择爱我或不爱我，我只能选择爱你或更爱你
+明心一时的不察，将带来蒙尘一世的黑暗
+不常想人生的无常和生死，再聪明的人，也和笨蛋一样
+盛情难却
+沧笙踏歌，静水深流
+when opportunity and a lack of options met(openshells)
+此行莫恨天涯远，咫尺理塘归去来
+宇宙，人类最后的边疆。这是星舰进取号的航程。它继续的任务，是去探索未知的新世界，找寻新的生命和新的文明，勇敢地航向前人所未至的领域
+知我者，谓我心忧；不知我者，谓我何求
+听雨数声
+菩提本无树，明镜亦非台；本来无一物，何处惹尘埃
+梦入神机有感于这段风尘际遇，宾主相从&amp;hellip;
+只恨前生未积缘，古佛青灯伴流年
+十年饮冰，难凉热血
+桃李春风一杯酒，江湖夜雨十年灯
+人在爱欲中，独来独往，独生独死，苦乐自当，无有代者
+人生不过一场是非之欢
+我们对明月起誓，永不相负
+欲买桂花同载酒，终不似，少年游
+世间有情皆孽，无人不苦
+骑马倚斜桥，满楼红袖招
+海底月是天上月，眼前人是心上人
+情出自愿，事过无悔
+无奈夜长人不寐，数声和月到帘栊
+长恨人心不如水，等闲平地起波澜
+世间草木都美，人不是。中药很苦，你也是
+那些都是很好很好的，可是我偏不喜欢
+南村群童欺我老无力，公然抱我入竹去，唇焦口燥呼不得，归来倚杖自叹息
+旦夕间，情知对于生命的千般流转，尽须付与无尽的忍爱
+平生总相误，只宜无情游
+三月桃花，两人一马，明日天涯
+可一想到终将是你的路人，便觉得，沦为整个世界的路人。风虽大，都绕过我的灵魂
+人生不如意事十八九
+谁能与我同醉，相知年年岁岁
+他年若隔世，你偶遇我埋骨之地，独饮一坛，就能喝得长醉不醒
+此心安处是吾乡
+风清水暖，与君白首
+把新路慢慢走旧。把旧路慢慢走平。人生如是，爱如是
+感情这碗浓茶，一定要趁热喝，因为这世上回首间便是人走茶凉
+十年一觉扬州梦，赢得青楼薄幸名
+最苦是相思，最远是阴阳
+红豆生南国，春来发几枝
+花开堪折直须折，莫待无花空折枝
+洞察周天，明晓人心
+漆柜迎新人，幽圹莹扰扰
+彭祖巫咸几回死，天上几回葬神仙
+月寒日暖，才煎人寿
+苍天鉴，此生不渝断情劫；红尘远，回首已是百年身
+战争就是一场游戏，而我，是一个肮脏的玩家
+临崖勒马收缰晚，船到江心补漏迟。家业有时为来往，还钱长记借钱时。金风未动蝉先觉，暗算无常死不知。青山只会明今古，绿水自有恶人磨。月过十五光明少，人到中年万事和。良言一句三冬暧，恶语伤人六月寒。 《名贤集——七言集》
+君视臣如手足,则臣视君如腹心;君视臣如犬马,则臣视君如国人;君视臣如草芥，臣视君如寇仇
+君以国士待我 我当以国士报之
+量小非君子，无毒不丈夫</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://mwflower.github.io/post/hello-world/</link>
+      <pubDate>Sat, 19 Dec 2020 21:53:36 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/hello-world/</guid>
+      <description>Hello. Welcome to star</description>
+    </item>
+    
+    <item>
+      <title>RUN</title>
+      <link>https://mwflower.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mwflower.github.io/about/</guid>
+      <description>爱好
+跑步 说话、唱歌  游玩
+黄山、仙华山  学习
+专业  早睡早起，自律
+众生皆欲踏天而来，为所不得着，无念，无信。
+重整行装再出发，寻找感动的力量。宿命
+许多年以后，在那长草摇曳的山顶，一个蓝眼睛的少女告诉我，大多数昆虫成年的寿命只有短短几天。比如蝉在黑暗的地底经历了漫长的冬天，化蛹、破茧，飞上高树，只为了最后短暂而欢愉的鸣唱。蝴蝶也是如此，吐丝结茧，破蛹化蝶，为的也只是在短暂的生命里，留下斑斓的瞬间。她对我说这些话的时候，天上风起云涌，暴雨将至。在她雪白的赤脚下，一群蚂蚁正慌张地穿过盘虬的树根，寻找新的避雨洞穴。她不知道生命有如白驹过隙，再长的岁月也只是弹指一挥间。对我来说，哪怕是做扑火的飞蛾，也远胜于这些终日匆匆忙忙的蝼蚁，不知因何而来、为何而往。
+那天，相柳倚窗而立，衣袂鼓舞，仿佛也被清凉的大风涤去了心尘。转过头，凝视着我，嫣然一笑，霞光映照在她的脸上，美得熠熠夺目。我看到她的笑容，心旌摇动，呼吸如堵，突然想起了不周山上摇曳的女娲花。如果我不是共工，如果没有遇见罗沄，如果世间万物都可以像这瑰霞峰的晚景绚丽无瑕，我多么想抛开所有的一切，将她紧紧地抱住。但我没有。那个念头一闪即过，随着窗外的流霞，被大风吹散。六十年以后，也是这样漫天如火的晚霞，也是这样凌云绝顶的高处，我抱着她渐渐冷却的身体，忽然又想起了那一刻，想起了诸夭之野的那个傍晚，想起她绚烂夺目的笑容。从那时开始，我常常会梦见她。人生就如同梦里那恣意不定的狂风，在无边无垠的幽暗的晨曦里，倏忽而来，倏忽而去，却不知道自己的方向。当你知道错过的时候，已经来不及掉头。有时我想，至少那一刻，她一定也曾感到了我心中的悸动。所以她脸红如霞，转过头，假装寻找漫山摇响的晚钟，嘴角却噙着似有若无的笑容。</description>
+    </item>
+    
+  </channel>
 </rss>

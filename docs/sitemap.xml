@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mwflower.github.io/posts/</loc>
+    <loc>https://mwflower.github.io/post/</loc>
     <lastmod>2020-12-24T00:16:30+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mwflower.github.io/posts/daqianshijie/</loc>
+    <loc>https://mwflower.github.io/post/daqianshijie/</loc>
     <lastmod>2020-12-24T00:16:30+08:00</lastmod>
   </url>
   
@@ -18,16 +18,8 @@
   </url>
   
   <url>
-    <loc>https://mwflower.github.io/posts/hello-world/</loc>
+    <loc>https://mwflower.github.io/post/hello-world/</loc>
     <lastmod>2020-12-19T21:53:36+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mwflower.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mwflower.github.io/categories/</loc>
   </url>
   
   <url>
@@ -36,10 +28,6 @@
   
   <url>
     <loc>https://mwflower.github.io/tags/run/</loc>
-  </url>
-  
-  <url>
-    <loc>https://mwflower.github.io/search/</loc>
   </url>
   
   <url>
