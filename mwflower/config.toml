@@ -24,10 +24,33 @@ footnoteReturnLinkContents = "^"
 
 
 [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "run"
+    name = "Run"
+    url = "/run/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "beauty"
+    name = "Beauty"
+    url = "/beauty/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "box"
+    name = "Box"
+    url = "/box/"
     weight = 10
+
+[[menu.main]]
+    identifier = "station"
+    name = "Station"
+    url = "/station/"
+    weight = 15
+
+[taxonomies]
+tag = "tags"
+# category = "categories"
+# series = "series"
 
 # [[menu.main]]
 #     identifier = "zone"
@@ -46,11 +69,6 @@ footnoteReturnLinkContents = "^"
 #     name = "About"
 #     url = "/about/"
 #     weight = 2
-
-[taxonomies]
-# category = "categories"
-# series = "series"
-tag = "tags"
 
 # [[menu.icon]]
 #     url = "mailto:username@mail.com"

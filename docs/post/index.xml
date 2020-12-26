@@ -77,12 +77,28 @@ when opportunity and a lack of options met(openshells)
     </item>
     
     <item>
+      <title>笑话</title>
+      <link>https://mwflower.github.io/post/joke/</link>
+      <pubDate>Fri, 21 Jun 2019 21:53:36 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/joke/</guid>
+      <description>美食
+一外国友人，扬言在一年内吃遍中国所有美食，结果五年过去了，他还没走出四川。&amp;ndash;郭冬临·抖音
+教育
+小时侯放暑假，妈妈把游戏机放我书包里，我找了一个假期没找到。。。&amp;ndash;糗事百科
+情感
+和老婆吵架后冷战三天，最后忍不住先开口：“老婆，出道加法题吧。”“你想干嘛？！”“我想求和。。。”&amp;ndash;糗事百科
+鸡汤
+假如上半年混得不好，千万不要气馁，因为七一建党，八一建军，十一建国，伟大的事业都是下半年完成的。上半年不是五四青年节，就是六一儿童节，都不太成熟。</description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://mwflower.github.io/post/hello-world/</link>
-      <pubDate>Sat, 19 Dec 2020 21:53:36 +0800</pubDate>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>https://mwflower.github.io/post/hello-world/</guid>
-      <description>Hello. Welcome to star</description>
+      <description>Hello. Welcome back.</description>
     </item>
     
   </channel>
