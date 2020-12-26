@@ -1,72 +1,73 @@
 baseURL = "https://mwflower.github.io"
-languageCode = "en-us"
-title = "梦中的过客"
-theme = "harbor"
+title = "笑语嫣然"
+theme = "erblog"
 paginate = 3
+languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-disable_comment = true
 
-# Optional
-# If you use googleAnalytics, you set top-level options in config.toml to the beginning of the config file like other top-level options.
-googleAnalytics = "UA-XXXXXXXX-XX"
-# and disqus too.
-disqusShortName = "yourdisqusshortname"
+[params]
+    author = "Michael"
+    badge = "orange"
+    quote = "red"
+    # notice = "Hello, world. This is a notification."
+    # notice_color = "red"
+    index_posts_num = 5
+    # google_search = true
+    # logo = "//blog.ertuil.top/avater.png"
+    description = "众生皆欲踏天而来，为所不得着，无念，无信"
+    bio = """
+    众生皆欲踏天而来，为所不得着，无念，无信
+    """
+    copyright = "笑语嫣然"
 
-[params.goatcounter]
-  domain="stats.domain.com"
 
-[Author]
-  name = "Hugo Author"
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
 
-[outputs]
-  section = ["JSON", "HTML"]
+# [[menu.main]]
+#     identifier = "zone"
+#     name = "Zone"
+#     url = "/zone/"
+#     weight = 10
 
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/about/"
-  weight = 3
+# [[menu.footer]]
+#     identifier = "home"
+#     name = "home"
+#     url = "/"
+#     weight = 1
 
-[[params.nav]]
-  identifier = "tags"
-  name = "Tags"
-  icon = "fas fa-tag fa-lg"
-  url = "tags"
-  weight = 3
+# [[menu.footer]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 2
 
-[[params.nav]]
-  identifier = "categories"
-  name = "Category"
-  icon = "fas fa-folder-open fa-lg"
-  url = "categories"
-  weight = 3
+[taxonomies]
+# category = "categories"
+# series = "series"
+tag = "tags"
 
-[[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
-  weight = 3
+# [[menu.icon]]
+#     url = "mailto:username@mail.com"
+#     name = "envelope-o"
+#     weight = 1
 
-[[params.nav]]
-  identifier = "archives"
-  name = "Archives"
-  icon = "fas fa-archive fa-lg"
-  url = "archives"
-  weight = 3
+# [[menu.icon]]
+#     url = "https://github.com/username/"
+#     name = "github"
+#     weight = 1
 
-# copy paste this block and change for each social media to add how many ever social media
-# acounts/links you want
-[[params.social]]
-  name="name of social media"
-  url="link to social media"
-  icon="A icon from https://fontawesome.com/"
+# [[menu.icon]]
+#     url = "https://twitter.com/username"
+#     name = "twitter"
+#     weight = 1
 
-[params.logo]
-  url = "icon.png" # static/images/icon.png
-  width = 50
-  height = 50
-  alt = "Logo"
+# [[menu.icon]]
+#     url = "https://www.instagram.com/username/"
+#     name = "instagram"
+#     weight = 1
