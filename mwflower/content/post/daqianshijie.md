@@ -1,6 +1,8 @@
 +++
 title = "大千世界"
 date = 2020-12-24T00:16:30+08:00
+categories = ["culture"]
+tags = []
 draft = false
 +++
 天行健，君子以自强不息；地势坤，君子以厚德载物  

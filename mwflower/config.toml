@@ -49,7 +49,7 @@ footnoteReturnLinkContents = "^"
 
 [taxonomies]
 tag = "tags"
-# category = "categories"
+category = "categories"
 # series = "series"
 
 # [[menu.main]]

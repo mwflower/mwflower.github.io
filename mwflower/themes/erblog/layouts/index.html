@@ -40,7 +40,6 @@
     <div class="layui-container">
         <div class="layui-row recent-inner" >
             <div class="layui-col-md8 layui-col-sm8 layui-col-xs12">
-                <h1> Recent Posts </h1>
                 {{ with (.Site.GetPage "section" "post")  }}
                     {{$index_posts_num := $.Site.Params.index_posts_num | default 8}}
                     {{range first $index_posts_num .Pages.ByDate.Reverse}}
@@ -50,7 +49,6 @@
             </div>
 
             <div class="layui-col-md4 layui-col-sm4 layui-col-xs12">
-
                 {{if $.Site.Params.google_search}}
                 <input id="search" type="text" name="search" placeholder="Intra-Site Search" autocomplete="off" class="layui-input">
                 <script type="text/javascript">
