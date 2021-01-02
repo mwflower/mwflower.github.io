@@ -163,7 +163,7 @@
   
   .markdown-body .pl-mi2 {
     background-color: #005cc5;
-    color: #f6f8fa;
+    color: #ebebe9;
   }
   
   .markdown-body .pl-mdr {
@@ -668,7 +668,7 @@
   }
   
   .markdown-body table tr:nth-child(2n) {
-    background-color: #f6f8fa;
+    background-color: #ebebe9;
   }
   
   .markdown-body img {
@@ -718,7 +718,7 @@
   
   .markdown-body .highlight pre,
   .markdown-body pre {
-    background-color: #f6f8fa;
+    background-color: #ebebe9;
     border-radius: 3px;
     font-size: 85%;
     line-height: 1.45;

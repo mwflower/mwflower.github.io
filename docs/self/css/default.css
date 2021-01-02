@@ -1,5 +1,5 @@
 body {
-    background-color: #f6f8fa!important;
+    background-color: #ebebe9!important;
     font-family: monospace, Helvetica, Tahoma, Arial;
     font: monospace,Helvetica,Tahoma,Arial, PingFang SC,;
     font-display: swap;
@@ -73,7 +73,7 @@ body {
 }
 
 .recent {
-    background-color:#ffffff;
+    background-color:#ebebe9;
     padding: 30px 10px;
     margin: 0;
 }
@@ -129,7 +129,7 @@ body {
 }
 
 .single-title {
-    background-color: #FFFFFF;
+    background-color: #ebebe9;
     /* margin-top: 20px; */
     padding-top: 20px;
     margin-right: 20px;
@@ -166,7 +166,7 @@ body {
 }
 
 .list-show {
-    background-color: #ffffff;
+    background-color: #ebebe9;
 }
 
 .list-show-title {
@@ -211,8 +211,8 @@ body {
     height: 100%;
     line-height: 60px;
     /* text-align: center; */
-    color: #FFFFFF;
-    font-size: 24px;
+    color: #ebebe9;
+    font-size: 22px;
 }
 
 
@@ -240,7 +240,7 @@ body {
 /* Footer */
 footer {
     /* background-color: #393D49; */
-    background-color: #2F4056;
+    background-color: #343a40;
     padding: 20px 0 20px;
 
     text-align: center;
@@ -248,7 +248,7 @@ footer {
     font-family: 'TT Commons',Arial,Helvetica,sans-serif;
     font-size: 1.0625rem;
     font-display: swap;
-    color: #ffffff;
+    color: #ebebe9;
 }
 
 .copyright {
@@ -256,7 +256,7 @@ footer {
     font-family: 'TT Commons',Arial,Helvetica,sans-serif;
     font-size: 1.0625rem;
     font-display: swap;
-    color: #ffffff;
+    color: #ebebe9;
     margin-top: 10px;
 }
 
@@ -295,7 +295,7 @@ footer {
 .self-elem-quote-bg-red {border-left-color: #FF5722!important;}
 .self-elem-quote-bg-orange {border-left-color: #FFB800!important;}
 .self-elem-quote-bg-green {border-left-color: #009688!important;}
-.self-elem-quote-bg-cyan {border-left-color: #2F4056!important;}
+.self-elem-quote-bg-cyan {border-left-color: #343a40!important;}
 .self-elem-quote-bg-blue {border-left-color: #1E9FFF!important;}
 .self-elem-quote-bg-black {border-left-color: #393D49!important;}
 .self-elem-quote-bg-gray {border-left-color: #666!important;}

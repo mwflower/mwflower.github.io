@@ -22,7 +22,6 @@ footnoteReturnLinkContents = "^"
     """
     copyright = "笑语嫣然"
 
-
 [[menu.main]]
     identifier = "run"
     name = "Run"
