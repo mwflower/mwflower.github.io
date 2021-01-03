@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mwflower.github.io/search/</loc>
+  </url>
+  
+  <url>
     <loc>https://mwflower.github.io/categories/</loc>
     <lastmod>2020-12-24T00:16:30+08:00</lastmod>
   </url>

@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Thu, 24 Dec 2020 00:16:30 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Search</title>
+      <link>https://mwflower.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mwflower.github.io/search/</guid>
+      <description>/* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 25px; } .search input{ width: 100%; } .search button{ display: none; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } .</description>
+    </item>
+    
+    <item>
       <title>大千世界</title>
       <link>https://mwflower.github.io/post/daqianshijie/</link>
       <pubDate>Thu, 24 Dec 2020 00:16:30 +0800</pubDate>
