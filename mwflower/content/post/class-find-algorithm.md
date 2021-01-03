@@ -2,7 +2,7 @@
 title = "经典查找算法"
 author = "mwflower"
 date = 2019-08-06T00:00:00+08:00
-categories = ["code"]
+categories = ["study"]
 tags = ["draft"]
 draft = false
 +++

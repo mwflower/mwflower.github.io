@@ -2,7 +2,7 @@
 title = "跑步"
 author = "mwflower"
 date = 2019-07-25T00:00:00+08:00
-categories = ["life"]
+categories = ["study","flower"]
 tags = []
 draft = false
 +++

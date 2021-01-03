@@ -2,7 +2,7 @@
 title = "三寸"
 author = "mwflower"
 date = 2019-12-17T00:00:00+08:00
-categories = ["life"]
+categories = ["study"]
 tags = []
 draft = false
 +++

@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 笑语嫣然</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Dec 2020 00:16:30 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>study</title>
+      <link>https://mwflower.github.io/categories/study/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/study/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>culture</title>
       <link>https://mwflower.github.io/categories/culture/</link>
@@ -28,18 +37,9 @@
     <item>
       <title>life</title>
       <link>https://mwflower.github.io/categories/life/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://mwflower.github.io/categories/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
-      <link>https://mwflower.github.io/categories/code/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
       
-      <guid>https://mwflower.github.io/categories/code/</guid>
+      <guid>https://mwflower.github.io/categories/life/</guid>
       <description></description>
     </item>
     

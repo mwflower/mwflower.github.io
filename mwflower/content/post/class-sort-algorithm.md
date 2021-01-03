@@ -2,7 +2,7 @@
 title = "经典排序算法"
 author = "mwflower"
 date = 2019-05-21T00:00:00+08:00
-categories = ["code"]
+categories = ["study"]
 tags = []
 draft = false
 toc = true

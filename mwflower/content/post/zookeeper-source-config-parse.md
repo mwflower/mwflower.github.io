@@ -2,7 +2,7 @@
 title = "Zookeeper源码-配置解析"
 author = "mwflower"
 date = 2019-04-23T00:00:00+08:00
-categories = ["code"]
+categories = ["study"]
 tags = []
 draft = true
 +++
