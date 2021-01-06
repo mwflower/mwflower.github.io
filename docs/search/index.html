@@ -8,7 +8,7 @@
     
     <meta content="笑语嫣然" name="keywords">
     
-    <meta content="笑语嫣然 - /* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 25px; } .search input{ width: 100%; } .search button{ display: none; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } ." name="description">
+    <meta content="笑语嫣然 - /* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 40px; } .search input{ width: 100%; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } ." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -119,15 +119,11 @@ layui.use('element', function(){
   /* 手机适配 */
   @media screen and (max-width: 500px) {
      .search{
-       padding-right: 25px;
+       padding-right: 40px;
      }
 
      .search input{
        width: 100%;
-     }
-
-     .search button{
-       display: none;
      }
   }
   /* 电脑适配 */
@@ -244,7 +240,7 @@ layui.use('element', function(){
     document.getElementById("search-tip").style.display = "none";
     tmpl = "<article style=\"border-bottom: 1px solid #e6e6e6;\" >" +
       "<header>" +
-      "<a href=\"" + link + "\" style=\"color:#333333\" target=\"_blank\"><h2>" + title + "</h2></a>" +
+      "<a href=\"" + link + "\" style=\"color:#333333\"><h2>" + title + "</h2></a>" +
       // "<div class=\"post-meta\">" +
       // " <span class=\"post-time\">" + time + "</span>" +
       // "</div>" +

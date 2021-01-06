@@ -8,15 +8,11 @@ weight = 30
   /* 手机适配 */
   @media screen and (max-width: 500px) {
      .search{
-       padding-right: 25px;
+       padding-right: 40px;
      }
 
      .search input{
        width: 100%;
-     }
-
-     .search button{
-       display: none;
      }
   }
   /* 电脑适配 */
@@ -133,7 +129,7 @@ weight = 30
     document.getElementById("search-tip").style.display = "none";
     tmpl = "<article style=\"border-bottom: 1px solid #e6e6e6;\" >" +
       "<header>" +
-      "<a href=\"" + link + "\" style=\"color:#333333\" target=\"_blank\"><h2>" + title + "</h2></a>" +
+      "<a href=\"" + link + "\" style=\"color:#333333\"><h2>" + title + "</h2></a>" +
       // "<div class=\"post-meta\">" +
       // " <span class=\"post-time\">" + time + "</span>" +
       // "</div>" +

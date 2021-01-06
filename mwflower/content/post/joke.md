@@ -2,7 +2,7 @@
 title = "笑话"
 author = "mwflower"
 date = 2019-06-21T21:53:36+08:00
-categories = ["life"]
+categories = ["study"]
 tags = []
 draft = false
 +++

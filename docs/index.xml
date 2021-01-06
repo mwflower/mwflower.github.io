@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mwflower.github.io/search/</guid>
-      <description>/* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 25px; } .search input{ width: 100%; } .search button{ display: none; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } .</description>
+      <description>/* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 40px; } .search input{ width: 100%; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } .</description>
     </item>
     
     <item>
@@ -710,10 +710,10 @@ PS:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://mwflower.github.io/run/</guid>
-      <description>爱好
-跑步 说话、唱歌  游玩
-黄山、仙华山  学习
-专业  早睡早起，自律
+      <description>学习
+专业、英语  爱好
+跑步、说话、唱歌、冥想  游玩
+黄山、仙华山  早睡早起，自律
 众生皆欲踏天而来，为所不得着，无念，无信。
 重整行装再出发，寻找感动的力量。宿命
 许多年以后，在那长草摇曳的山顶，一个蓝眼睛的少女告诉我，大多数昆虫成年的寿命只有短短几天。比如蝉在黑暗的地底经历了漫长的冬天，化蛹、破茧，飞上高树，只为了最后短暂而欢愉的鸣唱。蝴蝶也是如此，吐丝结茧，破蛹化蝶，为的也只是在短暂的生命里，留下斑斓的瞬间。她对我说这些话的时候，天上风起云涌，暴雨将至。在她雪白的赤脚下，一群蚂蚁正慌张地穿过盘虬的树根，寻找新的避雨洞穴。她不知道生命有如白驹过隙，再长的岁月也只是弹指一挥间。对我来说，哪怕是做扑火的飞蛾，也远胜于这些终日匆匆忙忙的蝼蚁，不知因何而来、为何而往。
