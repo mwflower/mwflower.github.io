@@ -6,7 +6,7 @@
     <description>Recent content on 笑语嫣然</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search</title>
       <link>https://mwflower.github.io/search/</link>
@@ -14,6 +14,43 @@
       
       <guid>https://mwflower.github.io/search/</guid>
       <description>/* 手机适配 */ @media screen and (max-width: 500px) { .search{ padding-right: 40px; } .search input{ width: 100%; } } /* 电脑适配 */ @media screen and (min-width: 500px) { .search{ width: 500px; } .search input{ width: 444px; } } /* 通用样式 */ .search{ margin: auto; } .search input{ outline: none; border: 2px solid #17a2b8; height: 32px; padding: 10px; } .search button{ outline: none; border: 0px; height: 32px; width:40px; position:absolute; background-color:#17a2b8 ; } .</description>
+    </item>
+    
+    <item>
+      <title>2020年总结</title>
+      <link>https://mwflower.github.io/post/2020_review/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/2020_review/</guid>
+      <description>这一年来经历了哪些事情，有什么值得记录吗
+开始装修，婚纱照，跑步，换工作，手机，游戏
+新冠肺炎，股市投资</description>
+    </item>
+    
+    <item>
+      <title>春江花月夜</title>
+      <link>https://mwflower.github.io/post/chunjiang/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/chunjiang/</guid>
+      <description>春江潮水连海平，海上明月共潮生。
+滟滟随波千万里，何处春江无月明！
+江流宛转绕芳甸，月照花林皆似霰。
+空里流霜不觉飞，汀上白沙看不见。
+江天一色无纤尘，皎皎空中孤月轮。
+江畔何人初见月？江月何年初照人？
+人生代代无穷已，江月年年望相似。(望相似 一作：只相似)
+不知江月待何人，但见长江送流水。
+白云一片去悠悠，青枫浦上不胜愁。
+谁家今夜扁舟子？何处相思明月楼？
+可怜楼上月徘徊，应照离人妆镜台。(徘徊 一作：裴回)
+玉户帘中卷不去，捣衣砧上拂还来。
+此时相望不相闻，愿逐月华流照君。
+鸿雁长飞光不度，鱼龙潜跃水成文。
+昨夜闲潭梦落花，可怜春半不还家。
+江水流春去欲尽，江潭落月复西斜。
+斜月沉沉藏海雾，碣石潇湘无限路。
+不知乘月几人归，落月摇情满江树。(落月 一作：落花)</description>
     </item>
     
     <item>
@@ -329,12 +366,12 @@ when opportunity and a lack of options met(openshells)
     </item>
     
     <item>
-      <title>大学毕业两年总结</title>
-      <link>https://mwflower.github.io/post/graduate2/</link>
+      <title>两年总结</title>
+      <link>https://mwflower.github.io/post/2019_review/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
       
-      <guid>https://mwflower.github.io/post/graduate2/</guid>
-      <description>毕业两年来经历了哪些事情，有什么进步吗
+      <guid>https://mwflower.github.io/post/2019_review/</guid>
+      <description>这两年来经历了哪些事情，有什么进步吗
 外婆去世，藏毛窦，闹矛盾，买房结婚，急短精神病，跑步，工作，手机，游戏</description>
     </item>
     
@@ -713,13 +750,13 @@ PS:
       <description>学习
 专业、英语  爱好
 跑步、说话、唱歌、冥想  游玩
-黄山、仙华山  早睡早起，自律
+黄山、仙华山  早睡早起，自律，勇气，梦想，智慧
 众生皆欲踏天而来，为所不得着，无念，无信。
 重整行装再出发，寻找感动的力量。宿命
 许多年以后，在那长草摇曳的山顶，一个蓝眼睛的少女告诉我，大多数昆虫成年的寿命只有短短几天。比如蝉在黑暗的地底经历了漫长的冬天，化蛹、破茧，飞上高树，只为了最后短暂而欢愉的鸣唱。蝴蝶也是如此，吐丝结茧，破蛹化蝶，为的也只是在短暂的生命里，留下斑斓的瞬间。她对我说这些话的时候，天上风起云涌，暴雨将至。在她雪白的赤脚下，一群蚂蚁正慌张地穿过盘虬的树根，寻找新的避雨洞穴。她不知道生命有如白驹过隙，再长的岁月也只是弹指一挥间。对我来说，哪怕是做扑火的飞蛾，也远胜于这些终日匆匆忙忙的蝼蚁，不知因何而来、为何而往。
 那天，相柳倚窗而立，衣袂鼓舞，仿佛也被清凉的大风涤去了心尘。转过头，凝视着我，嫣然一笑，霞光映照在她的脸上，美得熠熠夺目。我看到她的笑容，心旌摇动，呼吸如堵，突然想起了不周山上摇曳的女娲花。如果我不是共工，如果没有遇见罗沄，如果世间万物都可以像这瑰霞峰的晚景绚丽无瑕，我多么想抛开所有的一切，将她紧紧地抱住。但我没有。那个念头一闪即过，随着窗外的流霞，被大风吹散。六十年以后，也是这样漫天如火的晚霞，也是这样凌云绝顶的高处，我抱着她渐渐冷却的身体，忽然又想起了那一刻，想起了诸夭之野的那个傍晚，想起她绚烂夺目的笑容。从那时开始，我常常会梦见她。人生就如同梦里那恣意不定的狂风，在无边无垠的幽暗的晨曦里，倏忽而来，倏忽而去，却不知道自己的方向。当你知道错过的时候，已经来不及掉头。有时我想，至少那一刻，她一定也曾感到了我心中的悸动。所以她脸红如霞，转过头，假装寻找漫山摇响的晚钟，嘴角却噙着似有若无的笑容。
 不愿意成为什么样子？想成为什么样子？
-想想自己看电视、看小说、打游戏、玩手机的时光，现在的时间都是空下来的，做一些真心好的事情就好。</description>
+电视、小说、游戏、手机</description>
     </item>
     
     <item>
@@ -740,6 +777,24 @@ Kalzumeus
 大大的小蜗牛
 猫与向日葵
 梦回少年</description>
+    </item>
+    
+    <item>
+      <title>二次元</title>
+      <link>https://mwflower.github.io/gallery/erciyuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mwflower.github.io/gallery/erciyuan/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>少女峰</title>
+      <link>https://mwflower.github.io/gallery/shaonvfeng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mwflower.github.io/gallery/shaonvfeng/</guid>
+      <description>  </description>
     </item>
     
   </channel>
