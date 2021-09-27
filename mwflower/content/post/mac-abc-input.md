@@ -2,7 +2,7 @@
 title = "Mac OSX删除默认ABC输入法"
 author = "mwflower"
 date = 2019-07-29T00:00:00+08:00
-categories = []
+categories = ["study"]
 tags = []
 draft = true
 +++

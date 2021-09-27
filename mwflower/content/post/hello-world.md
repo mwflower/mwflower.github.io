@@ -2,7 +2,7 @@
 title = "Hello World"
 author = "mwflower"
 date = 2018-09-20T00:00:00+08:00
-categories = []
+categories = ["study"]
 tags = []
 draft = false
 +++

@@ -2,7 +2,7 @@
 title = "心经"
 author = "mwflower"
 date = 2019-07-12T00:00:00+08:00
-categories = []
+categories = ["culture"]
 tags = []
 draft = false
 +++
