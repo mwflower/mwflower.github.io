@@ -1,5 +1,5 @@
 baseURL = "https://mwflower.github.io"
-title = "笑语嫣然"
+title = "灯火阑珊"
 theme = "erblog"
 paginate = 3
 languageCode = "en"
@@ -20,7 +20,7 @@ footnoteReturnLinkContents = "^"
     bio = """
     天行健，君子以自强不息
     """
-    copyright = "笑语嫣然"
+    copyright = "灯火阑珊"
 
 [[menu.main]]
     identifier = "run"
