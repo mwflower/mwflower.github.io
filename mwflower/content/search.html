@@ -5,7 +5,7 @@ weight = 30
 +++
 
 <style>
-  /* 手机适配 */
+  /* for phone */
   @media screen and (max-width: 500px) {
      .search{
        padding-right: 40px;
@@ -15,7 +15,7 @@ weight = 30
        width: 100%;
      }
   }
-  /* 电脑适配 */
+  /* for pc */
   @media screen and (min-width: 500px) {
       .search{
         width: 500px;
@@ -26,14 +26,13 @@ weight = 30
       }
   }
 
-  /* 通用样式 */
   .search{
     margin: auto;
   }
 
   .search input{
     outline: none;
-    border: 2px solid #17a2b8;
+    border: 2px solid #343a40;
     height: 32px;
     padding: 10px;
   }
@@ -41,9 +40,9 @@ weight = 30
     outline: none;
     border: 0px;
     height: 32px;
-    width:40px;
+    width: 40px;
     position:absolute;
-    background-color:#17a2b8 ;
+    background-color: #343a40;
   }
   .search .icon{
     width: 20px;
@@ -63,7 +62,7 @@ weight = 30
     </svg>
   </button>
 </div>
-<h3 id="search-tip" style="color: #17a2b8;text-align: center;display: none;">Search...</h3>
+<h3 id="search-tip" style="color: #24292e;text-align: center;display: none;">Search...</h3>
 <br />
 <div id="result"></div>
 
@@ -109,12 +108,14 @@ weight = 30
     while (i < items.length) {
       txt = items[i].getElementsByTagName("title")[0].innerHTML + items[i].getElementsByTagName("description")[0].innerHTML
       if (txt.indexOf(key) > -1) {
-        haveResult = true;
         title = items[i].getElementsByTagName("title")[0].innerHTML;
         link = items[i].getElementsByTagName("link")[0].innerHTML;
         time = items[i].getElementsByTagName("pubDate")[0].innerHTML;
         mark = items[i].getElementsByTagName("description")[0].innerHTML.substr(0,30);
-        addItem(title, link, time, mark)
+        if (link.indexOf("post") > -1) {
+          haveResult = true;
+          addItem(title, link, time, mark);
+        }
       }
       i++;
     }
@@ -129,7 +130,7 @@ weight = 30
     document.getElementById("search-tip").style.display = "none";
     tmpl = "<article style=\"border-bottom: 1px solid #e6e6e6;\" >" +
       "<header>" +
-      "<a href=\"" + link + "\" style=\"color:#333333\"><h2>" + title + "</h2></a>" +
+      "<a href=\"" + link + "\" style=\"color:#333333\"><h2 style=\"font-weight:400\">" + title + "</h2></a>" +
       // "<div class=\"post-meta\">" +
       // " <span class=\"post-time\">" + time + "</span>" +
       // "</div>" +

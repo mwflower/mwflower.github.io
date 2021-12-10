@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 灯火阑珊</title>
+    <title>Categories on RUN SUN</title>
     <link>https://mwflower.github.io/categories/</link>
-    <description>Recent content in Categories on 灯火阑珊</description>
+    <description>Recent content in Categories on RUN SUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>culture</title>
+      <link>https://mwflower.github.io/categories/culture/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>life</title>
       <link>https://mwflower.github.io/categories/life/</link>
       <pubDate>Tue, 19 Jan 2021 00:00:00 +0800</pubDate>
       
       <guid>https://mwflower.github.io/categories/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>culture</title>
-      <link>https://mwflower.github.io/categories/culture/</link>
-      <pubDate>Thu, 14 Jan 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://mwflower.github.io/categories/culture/</guid>
       <description></description>
     </item>
     
