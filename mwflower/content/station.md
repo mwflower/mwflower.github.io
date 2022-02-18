@@ -11,20 +11,24 @@ backtotop = false
 [Exercism][4]  
 [Typing][5]  
 
+[Matrix67][15]  
+[ChangKun][13]  
+[云风][21]  
+[掉链自行车][9]  
+[编程小梦][22]  
+
 [EastMoney][6]  
 [创造狮][7]  
 [LVS][2]  
 
-[Matrix67][15]  
-[ChangKun][13]  
 [Kalzumeus][8]  
-[Marc MERLIN][17]  
-[掉链自行车][9]  
+[Marc MERLIN-Linux][17]  
+[月光博客][16]  
+[酷壳][20]  
+
 [大大的小蜗牛][10]  
 [猫与向日葵][11]  
 [梦回少年][12]  
-[月光博客][16]  
-[酷壳][20]  
 [白米饭][18]  
 [Alex][19]  
 
@@ -49,4 +53,6 @@ backtotop = false
   [18]: https://www.baimifan.com.cn
   [19]: https://println.org
   [20]: https://coolshell.cn
+  [21]: https://blog.codingnow.com/
+  [22]: https://blog.bcmeng.com/
 

@@ -6,7 +6,25 @@
     <description>Recent content in Posts on RUN SUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021年总结</title>
+      <link>https://mwflower.github.io/post/2021_review/</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/2021_review/</guid>
+      <description>这一年来经历了哪些事情，有什么值得记录吗
+换工作城市，跑步少，装修，手机娱乐，游戏
+状态 对工作的态度，没有了之前的紧迫感，逐渐远离了为了生存而工作的状态。可以更加自由的选择。
+重要经历 总结 一个人在这边上班，刚开始一两个月生活比较规律，锻炼身体学习进步，后面生活就乱了，很多时间在玩手机，即使手机上也没啥真正有用的东西，浪费了大量时间，还经常熬夜。手机是信息工具，应该有目标的看，而不是漫无目的，有害无益，全是娱乐信息。
+对社会认识更深刻，努力赚到钱还房贷，将房贷压力干掉。
+争取能赚到人生第一桶金，之后做自己感兴趣的事情，或者找到自己非常感兴趣的事情，有机会do it。
+培养事业上的朋友。
+培养自己的专业能力，专注其中，只争朝夕。
+新年寄语 更专注在一件事情上。不要在无关自己的事情上花费大量时间。不做无谓的事情。 自由职业？web3？ 准备做爸爸？ 自律：少玩电子游戏、少刷手机、锻炼身体、刷力扣、看书 进入一个小众圈子：算法、web3
+Tips </description>
+    </item>
+    
     <item>
       <title>孙子兵法</title>
       <link>https://mwflower.github.io/post/sunzibingfa/</link>
@@ -445,19 +463,6 @@ when opportunity and a lack of options met(openshells)
     </item>
     
     <item>
-      <title>经典查找算法</title>
-      <link>https://mwflower.github.io/post/class-find-algorithm/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://mwflower.github.io/post/class-find-algorithm/</guid>
-      <description>概述 线性查找分为顺序查找和二分查找。
-查找有两种形态，破坏性查找和非破坏性查找，非破坏性查找不会改变数据结构。
-顺序查找 思想 从头到尾顺序遍历一遍，很简单直接的方法。
-二分查找 思想 假设一个从小到大的有序序列，取中间值和目标比较，如果中间值大，则下一步比较中间值之前的序列，否则比较中间值之后的序列。依次循环，直到找到目标值或遍历结束。
-实现 def bin_search(arr, key): low, high = 0, len(arr) - 1 while low &amp;lt; high: mid = (low + high) / 2 print(&amp;#34;mid = {mid}, low = {low}, high = {high}&amp;#34;.format(mid = mid, low = low, high = high)) if key &amp;lt; arr[mid]: high = mid - 1 elif key &amp;gt; arr[mid]: low = mid + 1 else: return mid if key &amp;lt; arr[low] or key &amp;gt; arr[high]: break return None 分析 有序序列时间复杂度为O(nlogn)；</description>
-    </item>
-    
-    <item>
       <title>小时候</title>
       <link>https://mwflower.github.io/post/young/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0800</pubDate>
@@ -736,17 +741,6 @@ Wall Sit 增强膝盖周围肌肉力量，防止膝盖疼。
 静女其姝，俟我于城隅。爱而不见，搔首踟蹰。 静女其娈，贻我彤管。彤管有炜，说怿女美。 自牧归荑，洵美且异。匪女之为美，美人之贻。  载芟
 载芟载柞，其耕泽泽。千耦其耘，徂隰徂畛。 侯主侯伯，侯亚侯旅，侯强侯以。 有嗿其馌，思媚其妇，有依其士。 有略其耜，俶载南亩。播厥百谷，实函斯活。 驿驿其达，有厌其杰，厌厌其苗，绵绵其麃。 载获济济，有实其积，万亿及秭。 为酒为醴，烝畀祖妣，以洽百礼。 有飶其香，邦家之光。有椒其馨，胡考之宁。 匪且有且，匪今斯今，振古如兹。  北山
 陟彼北山，言采其杞。偕偕士子，朝夕从事。王事靡盬，忧我父母。 溥天之下，莫非王土。率土之滨，莫非王臣。大夫不均，我从事独贤。 四牡彭彭，王事傍傍。嘉我未老，鲜我方将。旅力方刚，经营四方。 或燕燕居息，或尽瘁事国。或息偃在床，或不已于行。或不知叫号，或惨惨劬劳。 或栖迟偃仰，或王事鞅掌。或湛乐饮酒，或惨惨畏咎。或出入风议，或靡事不为。  硕人</description>
-    </item>
-    
-    <item>
-      <title>经典排序算法</title>
-      <link>https://mwflower.github.io/post/class-sort-algorithm/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://mwflower.github.io/post/class-sort-algorithm/</guid>
-      <description>序 排序算法主要有四种：
- 交换排序：如冒泡排序，快速排序 选择排序：如直接选择排序，堆排序 插入排序：如直接插入排序，希尔排序 合并排序：如归并排序  下面我们一起来聊聊这些算法，并用python做简单的实现。
-首先我们总体看看这些算法的优点及应用：    排序法 最差时间分析 平均时间复杂度 稳定度 空间复杂度 应用 备注     冒泡排序 O(n2) O(n2) 稳定 O(1) n 小时较好 n很小时比快排快   快速排序 O(n2) O(n*log2n) 不稳定 O(log2n)~O(n) n 大时较好 n大时，最差情况也比冒泡表现好   选择排序 O(n2) O(n2) 稳定 O(1) n 小时较好 比冒泡表现好，交换次数少   堆排序 O(n*log2n) O(n*log2n) 不稳定 O(1) n 大时较好 比选择排序好点，比较次数更少；没快排快   插入排序 O(n2) O(n2) 稳定 O(1) 大部分已排序时较好 比冒泡表现好；和选择排序类似，但程序中数据交换更多   希尔排序 &amp;hellip; &amp;hellip; 不稳定 O(1) &amp;hellip; 时间复杂度计算与所取增量序列的有关，涉及到一些数学上尚未解决的难题；实践好像比快排还快 ?</description>
     </item>
     
     <item>
