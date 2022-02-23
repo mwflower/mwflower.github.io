@@ -1,6 +1,6 @@
 +++
 title = "RUN"
-tags = ["run"]
+tags = []
 draft = false
 toc = false
 backtotop = false
