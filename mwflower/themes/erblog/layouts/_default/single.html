@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="layui-container" style="margin-bottom: 10px">
+    {{ $related := .Site.RegularPages.Related . | first 5 }}
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-card single-card">
+            <br />
+            <div class="markdown-body single-title" >
+                <h1>{{ .Title }}</h1>
+                {{partial "info" .}}
+            </div>
+            <div class="layui-card-body markdown-body single-content">
+                {{ .Content }}
+                {{- partial "self-define-single.html" . -}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{end}}

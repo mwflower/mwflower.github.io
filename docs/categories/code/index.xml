@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on 笑语嫣然</title>
+    <link>https://mwflower.github.io/categories/code/</link>
+    <description>Recent content in code on 笑语嫣然</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>经典查找算法</title>
+      <link>https://mwflower.github.io/post/class-find-algorithm/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/class-find-algorithm/</guid>
+      <description>概述 线性查找分为顺序查找和二分查找。
+查找有两种形态，破坏性查找和非破坏性查找，非破坏性查找不会改变数据结构。
+顺序查找 思想 从头到尾顺序遍历一遍，很简单直接的方法。
+二分查找 思想 假设一个从小到大的有序序列，取中间值和目标比较，如果中间值大，则下一步比较中间值之前的序列，否则比较中间值之后的序列。依次循环，直到找到目标值或遍历结束。
+实现 def bin_search(arr, key): low, high = 0, len(arr) - 1 while low &amp;lt; high: mid = (low + high) / 2 print(&amp;#34;mid = {mid}, low = {low}, high = {high}&amp;#34;.format(mid = mid, low = low, high = high)) if key &amp;lt; arr[mid]: high = mid - 1 elif key &amp;gt; arr[mid]: low = mid + 1 else: return mid if key &amp;lt; arr[low] or key &amp;gt; arr[high]: break return None 分析 有序序列时间复杂度为O(nlogn)；</description>
+    </item>
+    
+    <item>
+      <title>经典排序算法</title>
+      <link>https://mwflower.github.io/post/class-sort-algorithm/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/class-sort-algorithm/</guid>
+      <description>序 排序算法主要有四种：
+ 交换排序：如冒泡排序，快速排序 选择排序：如直接选择排序，堆排序 插入排序：如直接插入排序，希尔排序 合并排序：如归并排序  下面我们一起来聊聊这些算法，并用python做简单的实现。
+首先我们总体看看这些算法的优点及应用：    排序法 最差时间分析 平均时间复杂度 稳定度 空间复杂度 应用 备注     冒泡排序 O(n2) O(n2) 稳定 O(1) n 小时较好 n很小时比快排快   快速排序 O(n2) O(n*log2n) 不稳定 O(log2n)~O(n) n 大时较好 n大时，最差情况也比冒泡表现好   选择排序 O(n2) O(n2) 稳定 O(1) n 小时较好 比冒泡表现好，交换次数少   堆排序 O(n*log2n) O(n*log2n) 不稳定 O(1) n 大时较好 比选择排序好点，比较次数更少；没快排快   插入排序 O(n2) O(n2) 稳定 O(1) 大部分已排序时较好 比冒泡表现好；和选择排序类似，但程序中数据交换更多   希尔排序 &amp;hellip; &amp;hellip; 不稳定 O(1) &amp;hellip; 时间复杂度计算与所取增量序列的有关，涉及到一些数学上尚未解决的难题；实践好像比快排还快 ?</description>
+    </item>
+    
+  </channel>
+</rss>

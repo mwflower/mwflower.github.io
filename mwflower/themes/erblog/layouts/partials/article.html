@@ -1,0 +1,15 @@
+    <blockquote class="self-elem-quote {{if isset $.Site.Params "quote"}}self-elem-quote-bg-{{index $.Site.Params.quote}}{{end}}" style="background-color:#ebebe9;margin-top: 10px;">
+        <h2 class="">
+            <a href="{{.RelPermalink}}">{{.Title}}</a>
+        </h2>
+        {{partial "info" .}}
+        <h3>
+        	{{ if isset .Params "description" }}
+            {{ .Description }}
+          {{ else if gt (len .Summary) 30 }}
+            {{ .Summary | truncate 30 " ..." }}
+          {{else if .Summary}}
+            {{.Summary}}
+          {{end}} <a href="{{.RelPermalink}}"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>

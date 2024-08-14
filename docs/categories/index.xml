@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on RUN SUN</title>
+    <link>https://mwflower.github.io/categories/</link>
+    <description>Recent content in Categories on RUN SUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Feb 2022 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>life</title>
+      <link>https://mwflower.github.io/categories/life/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>https://mwflower.github.io/categories/study/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>https://mwflower.github.io/categories/culture/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flower</title>
+      <link>https://mwflower.github.io/categories/flower/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/categories/flower/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

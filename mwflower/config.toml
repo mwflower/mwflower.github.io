@@ -1,0 +1,90 @@
+baseURL = "https://mwflower.github.io"
+title = "RUN SUN"
+theme = "erblog"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[params]
+    author = "Michael"
+    badge = "orange"
+    quote = "red"
+    # notice = "Hello, world. This is a notification."
+    # notice_color = "red"
+    index_posts_num = 5
+    # google_search = true
+    # logo = "//blog.ertuil.top/avater.png"
+    description = "天行健，君子以自强不息"
+    bio = """
+    天行健，君子以自强不息
+    """
+    copyright = "RUN SUN"
+
+[[menu.main]]
+    identifier = "run"
+    name = "Run"
+    url = "/run/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "beauty"
+    name = "Beauty"
+    url = "/gallery/"
+    weight = 5
+
+[[menu.main]]
+    identifier = "box"
+    name = "Box"
+    url = "/box/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "station"
+    name = "Station"
+    url = "/station/"
+    weight = 15
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+# series = "series"
+
+# [[menu.main]]
+#     identifier = "zone"
+#     name = "Zone"
+#     url = "/zone/"
+#     weight = 10
+
+# [[menu.footer]]
+#     identifier = "home"
+#     name = "home"
+#     url = "/"
+#     weight = 1
+
+# [[menu.footer]]
+#     identifier = "about"
+#     name = "About"
+#     url = "/about/"
+#     weight = 2
+
+# [[menu.icon]]
+#     url = "mailto:username@mail.com"
+#     name = "envelope-o"
+#     weight = 1
+
+# [[menu.icon]]
+#     url = "https://github.com/username/"
+#     name = "github"
+#     weight = 1
+
+# [[menu.icon]]
+#     url = "https://twitter.com/username"
+#     name = "twitter"
+#     weight = 1
+
+# [[menu.icon]]
+#     url = "https://www.instagram.com/username/"
+#     name = "instagram"
+#     weight = 1

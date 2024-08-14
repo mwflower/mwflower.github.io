@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>draft on RUN SUN</title>
+    <link>https://mwflower.github.io/tags/draft/</link>
+    <description>Recent content in draft on RUN SUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>经典查找算法</title>
+      <link>https://mwflower.github.io/post/class-find-algorithm/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://mwflower.github.io/post/class-find-algorithm/</guid>
+      <description>概述 线性查找分为顺序查找和二分查找。
+查找有两种形态，破坏性查找和非破坏性查找，非破坏性查找不会改变数据结构。
+顺序查找 思想 从头到尾顺序遍历一遍，很简单直接的方法。
+二分查找 思想 假设一个从小到大的有序序列，取中间值和目标比较，如果中间值大，则下一步比较中间值之前的序列，否则比较中间值之后的序列。依次循环，直到找到目标值或遍历结束。
+实现 def bin_search(arr, key): low, high = 0, len(arr) - 1 while low &amp;lt; high: mid = (low + high) / 2 print(&amp;#34;mid = {mid}, low = {low}, high = {high}&amp;#34;.format(mid = mid, low = low, high = high)) if key &amp;lt; arr[mid]: high = mid - 1 elif key &amp;gt; arr[mid]: low = mid + 1 else: return mid if key &amp;lt; arr[low] or key &amp;gt; arr[high]: break return None 分析 有序序列时间复杂度为O(nlogn)；</description>
+    </item>
+    
+  </channel>
+</rss>
