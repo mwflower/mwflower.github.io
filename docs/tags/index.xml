@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on RUN SUN</title>
+    <title>Tags on Run</title>
     <link>https://mwflower.github.io/tags/</link>
-    <description>Recent content in Tags on RUN SUN</description>
+    <description>Recent content in Tags on Run</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>me@example.com (author)</managingEditor>
+    <webMaster>me@example.com (author)</webMaster>
     <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://mwflower.github.io/tags/draft/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
-      
+      <author>me@example.com (author)</author>
       <guid>https://mwflower.github.io/tags/draft/</guid>
+      
       <description></description>
+      
     </item>
     
   </channel>

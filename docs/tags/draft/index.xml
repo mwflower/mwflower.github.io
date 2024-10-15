@@ -1,23 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>draft on RUN SUN</title>
+    <title>draft on Run</title>
     <link>https://mwflower.github.io/tags/draft/</link>
-    <description>Recent content in draft on RUN SUN</description>
+    <description>Recent content in draft on Run</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>me@example.com (author)</managingEditor>
+    <webMaster>me@example.com (author)</webMaster>
     <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0800</lastBuildDate><atom:link href="https://mwflower.github.io/tags/draft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>经典查找算法</title>
       <link>https://mwflower.github.io/post/class-find-algorithm/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0800</pubDate>
-      
+      <author>me@example.com (author)</author>
       <guid>https://mwflower.github.io/post/class-find-algorithm/</guid>
-      <description>概述 线性查找分为顺序查找和二分查找。
-查找有两种形态，破坏性查找和非破坏性查找，非破坏性查找不会改变数据结构。
-顺序查找 思想 从头到尾顺序遍历一遍，很简单直接的方法。
-二分查找 思想 假设一个从小到大的有序序列，取中间值和目标比较，如果中间值大，则下一步比较中间值之前的序列，否则比较中间值之后的序列。依次循环，直到找到目标值或遍历结束。
-实现 def bin_search(arr, key): low, high = 0, len(arr) - 1 while low &amp;lt; high: mid = (low + high) / 2 print(&amp;#34;mid = {mid}, low = {low}, high = {high}&amp;#34;.format(mid = mid, low = low, high = high)) if key &amp;lt; arr[mid]: high = mid - 1 elif key &amp;gt; arr[mid]: low = mid + 1 else: return mid if key &amp;lt; arr[low] or key &amp;gt; arr[high]: break return None 分析 有序序列时间复杂度为O(nlogn)；</description>
+      
+      <description>&lt;h1 id=&#34;概述&#34;&gt;概述&lt;/h1&gt;
+&lt;p&gt;线性查找分为顺序查找和二分查找。&lt;br&gt;
+查找有两种形态，破坏性查找和非破坏性查找，非破坏性查找不会改变数据结构。&lt;/p&gt;
+&lt;h1 id=&#34;顺序查找&#34;&gt;顺序查找&lt;/h1&gt;
+&lt;h2 id=&#34;思想&#34;&gt;思想&lt;/h2&gt;
+&lt;p&gt;从头到尾顺序遍历一遍，很简单直接的方法。&lt;/p&gt;
+&lt;h1 id=&#34;二分查找&#34;&gt;二分查找&lt;/h1&gt;
+&lt;h2 id=&#34;思想-1&#34;&gt;思想&lt;/h2&gt;
+&lt;p&gt;假设一个从小到大的有序序列，取中间值和目标比较，如果中间值大，则下一步比较中间值之前的序列，否则比较中间值之后的序列。依次循环，直到找到目标值或遍历结束。&lt;/p&gt;
+&lt;h2 id=&#34;实现&#34;&gt;实现&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#00a000&#34;&gt;bin_search&lt;/span&gt;(arr, key):  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    low, high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#a2f&#34;&gt;len&lt;/span&gt;(arr) &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;while&lt;/span&gt; low &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; high:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        mid &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; (low &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt; high) &lt;span style=&#34;color:#666&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;2&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;mid = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{mid}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;, low = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{low}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;, high = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{high}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;format(mid &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid, low &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; low, high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; high))  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;if&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; arr[mid]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;elif&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt; arr[mid]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            low &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;else&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;return&lt;/span&gt; mid  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;if&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; arr[low] &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;or&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt; arr[high]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;break&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;None&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;分析&#34;&gt;分析&lt;/h2&gt;
+&lt;p&gt;有序序列时间复杂度为O(nlogn)；&lt;br&gt;
+无序序列时间复杂度为排序+查找=O(nlogn)+O(nlogn)，最快的排序算法时间复杂度为O(nlogn)；&lt;br&gt;
+只适用于线性结构的数据。&lt;/p&gt;
+&lt;h1 id=&#34;插值查找&#34;&gt;插值查找&lt;/h1&gt;
+&lt;h2 id=&#34;思想-2&#34;&gt;思想&lt;/h2&gt;
+&lt;p&gt;核心在于插值的计算公式 (key-a[low])/(a[high]-a[low])*(high-low)。&lt;br&gt;
+基于二分查找，将查找点的选择改进为自适应选择，可以提高查找效率，也属于有序查找。&lt;br&gt;
+对于表长较大，而关键字分布又比较均匀的查找表来说，插值查找算法的平均性能比折半查找要好的多。反之，数组中如果分布非常不均匀，那么插值查找未必是很合适的选择。&lt;/p&gt;
+&lt;h2 id=&#34;实现-1&#34;&gt;实现&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#00a000&#34;&gt;insert_search&lt;/span&gt;(arr, key):  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    low, high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#a2f&#34;&gt;len&lt;/span&gt;(arr) &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;while&lt;/span&gt; low &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; high:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#080;font-style:italic&#34;&gt;# 核心：计算mid公式  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        mid &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; low &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt; (high &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; low) &lt;span style=&#34;color:#666&#34;&gt;*&lt;/span&gt; (key &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; arr[low]) &lt;span style=&#34;color:#666&#34;&gt;/&lt;/span&gt; (arr[high] &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; arr[low])  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;mid = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{mid}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;, low = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{low}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;, high = &lt;/span&gt;&lt;span style=&#34;color:#b68;font-weight:bold&#34;&gt;{high}&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;.&lt;/span&gt;format(mid &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid, low &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; low, high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; high))  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;if&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; arr[mid]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            high &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid &lt;span style=&#34;color:#666&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;elif&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt; arr[mid]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            low &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mid &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;1&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;else&lt;/span&gt;:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;return&lt;/span&gt; mid  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;if&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt; arr[low] &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;or&lt;/span&gt; key &lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt; arr[high]:  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;break&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;None&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;分析-1&#34;&gt;分析&lt;/h2&gt;
+&lt;p&gt;时间复杂性：如果元素均匀分布，则O(log(logn))，在最坏的情况下可能需要 O(n)。&lt;br&gt;
+空间复杂度：O(1)。&lt;br&gt;
+对增量均匀的查找速度更快。&lt;/p&gt;
+&lt;h1 id=&#34;哈希查找&#34;&gt;哈希查找&lt;/h1&gt;
+&lt;h2 id=&#34;思想-3&#34;&gt;思想&lt;/h2&gt;
+&lt;p&gt;通过hash函数，实现O(1)的查找。如输入5，通过函数直接返回2。&lt;br&gt;
+哈希需要遵循两个规则：&lt;br&gt;
+(1) Key尽可能分散，避免多个Key指向同一个值。&lt;br&gt;
+(2) 哈希函数尽可能简单，避免造成资源浪费在哈希函数上。&lt;/p&gt;
+&lt;p&gt;常用哈希算法：&lt;br&gt;
+(1) 直接定址法：key=Value+C；这个“C&amp;quot;是常量。Value+C其实就是一个简单的哈希函数。&lt;br&gt;
+(2) 除法取余法：key=value%C；&lt;br&gt;
+(3) 数字分析法：比如有一组value1=112233，value2=112633，value3=119033，针对这样的数我们分析数中间两个数比较波动，其他数不变。那么我们取key的值就可以是key1=22,key2=26,key3=90。&lt;br&gt;
+(4) 平方取中法。&lt;br&gt;
+(5) 折叠法：比如value=135790，要求key是2位数的散列值。那么我们将value变为13+57+90=160，然后去掉高位“1”,此时key=60，哈哈，这就是他们的哈希关系，这样做的目的就是key与每一位value都相关，来做到“散列地址”尽可能分散的目地。&lt;/p&gt;
+&lt;p&gt;冲突解决办法：&lt;br&gt;
+(1) 开放地址法：其实就是数组中未使用的地址。也就是说，在发生冲突的地方，后到的那个元素（可采用两种方式:线性探测，函数探测）向数组后寻找&amp;quot;开放地址“然后把自己插进入。&lt;br&gt;
+(2) 链接法：在每个元素上放一个”指针域“，在发生冲突的地方，后到的那个元素将自己的数据域抛给冲突中的元素，此时冲突的地方就形成了一个链表。&lt;/p&gt;
+&lt;h2 id=&#34;实现-2&#34;&gt;实现&lt;/h2&gt;
+&lt;p&gt;设计函数采用：”除法取余法“。&lt;br&gt;
+冲突方面采用:”开放地址线性探测法&amp;quot;。&lt;/p&gt;
+&lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
+&lt;h2 id=&#34;分析-2&#34;&gt;分析&lt;/h2&gt;
+&lt;h1 id=&#34;索引查找&#34;&gt;索引查找&lt;/h1&gt;
+&lt;h1 id=&#34;二叉排序树&#34;&gt;二叉排序树&lt;/h1&gt;
+&lt;h2 id=&#34;思想-4&#34;&gt;思想&lt;/h2&gt;
+&lt;p&gt;树的定义：若根节点有左子树，则左子树的所有节点都比根节点小；若根节点有右子树，则右子树的所有节点都比根节点大，如图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mwflower.github.io/self/img/2019/08/1276987458.png&#34; alt=&#34;二叉树.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;插入数据&#34;&gt;插入数据&lt;/h3&gt;
+&lt;p&gt;如插入3到这颗树中：&lt;br&gt;
+3比6小，3与6的左子树比较；&lt;br&gt;
+3比4小，3与4的左子树比较；&lt;br&gt;
+3比2大，将3插入2的右子树。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mwflower.github.io/self/img/2019/08/561276523.png&#34; alt=&#34;二叉树2.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;查找数据&#34;&gt;查找数据&lt;/h3&gt;
+&lt;p&gt;按照插入数据的逻辑查找即可。&lt;/p&gt;
+&lt;h3 id=&#34;删除数据&#34;&gt;删除数据&lt;/h3&gt;
+</description>
+      
     </item>
     
   </channel>

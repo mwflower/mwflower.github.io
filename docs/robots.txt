@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mwflower.github.io/sitemap.xml

@@ -1,36 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Galleries on RUN SUN</title>
+    <title>Galleries on Run</title>
     <link>https://mwflower.github.io/gallery/</link>
-    <description>Recent content in Galleries on RUN SUN</description>
+    <description>Recent content in Galleries on Run</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mwflower.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>me@example.com (author)</managingEditor>
+    <webMaster>me@example.com (author)</webMaster><atom:link href="https://mwflower.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>二次元</title>
       <link>https://mwflower.github.io/gallery/erciyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>me@example.com (author)</author>
       <guid>https://mwflower.github.io/gallery/erciyuan/</guid>
-      <description> </description>
+      
+      <description>&lt;figure&gt;&lt;img src=&#34;https://mwflower.github.io/self/img/2021/02/erciyuan_1.png&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+      
     </item>
     
     <item>
       <title>小清新</title>
       <link>https://mwflower.github.io/gallery/qingxin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>me@example.com (author)</author>
       <guid>https://mwflower.github.io/gallery/qingxin/</guid>
-      <description> </description>
+      
+      <description>&lt;figure&gt;&lt;img src=&#34;https://mwflower.github.io/self/img/2021/07/qingxin.jpg&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+      
     </item>
     
     <item>
       <title>少女峰</title>
       <link>https://mwflower.github.io/gallery/shaonvfeng/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
+      <author>me@example.com (author)</author>
       <guid>https://mwflower.github.io/gallery/shaonvfeng/</guid>
-      <description> </description>
+      
+      <description>&lt;figure&gt;&lt;img src=&#34;https://mwflower.github.io/self/img/2019/06/970678606.jpeg&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+      
     </item>
     
   </channel>
